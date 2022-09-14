@@ -9,7 +9,7 @@ import { useForms, useAddForms } from'./FormContext'
 const Forms = () => {
   const [form] = Form.useForm();
 
-  const { details, setdetails, Edit, updatevalue } = useForms();
+  const { details, setdetails, Edit } = useForms();
   const { addData, onDelete, onEdit, editData } = useAddForms();
   const [btn, setBtn] = useState(false)
   useEffect(() => {
@@ -148,10 +148,10 @@ const Forms = () => {
                   }}
                 >
                   
-                  <Button type="primary" htmlType="submit" hidden={btn === true} >
+                  <Button type="primary" htmlType="submit" hidden={btn === true} style={{color:"white",backgroundColor:"green",borderColor:"green"}} >
                     Submit
                   </Button>
-                  <Button type="primary" htmlType="submit" hidden={btn === false}>
+                  <Button type="primary" htmlType="submit" hidden={btn === false} style={{color:"white",backgroundColor:"blue",borderColor:"blue"}}>
                     Update
                   </Button>
                   <Button htmlType="button" onClick={onReset}
