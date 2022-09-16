@@ -58,8 +58,8 @@ const Display=()=>{
             key: 'action',
             render: (_, record, index) => (
               <Space size="middle">
-               <button onClick={()=>{onEdit(_,record,index)}}>Edit</button>
-               <button onClick={()=>{onDelete(_, record, index)}}>Delete</button>
+               <button style={{color:"white",backgroundColor:"blue",borderColor:"blue"}}onClick={()=>{onEdit(_,record,index)}}>Edit</button>
+               <button style={{color:"white",backgroundColor:"red",borderColor:"red"}}onClick={()=>{onDelete(_, record, index)}}>Delete</button>
               </Space>
             ),
           },
@@ -69,7 +69,7 @@ const Display=()=>{
     <Row>
       <Col span={4}></Col>
       <Col span={20}>
-    <Table dataSource={dataSource} columns={columns}  style={{
+    <Table dataSource={dataSource} columns={columns}  className="antd"style={{
       
       marginTop:"30px",
       width:"80%"
