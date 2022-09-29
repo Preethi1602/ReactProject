@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactProject/react-app/static/css/main.558efc04.css",
-    "main.js": "/ReactProject/react-app/static/js/main.1a0a516d.js",
+    "main.css": "/ReactProject/react-app/static/css/main.5052db41.css",
+    "main.js": "/ReactProject/react-app/static/js/main.31a92640.js",
     "static/js/787.f77d0291.chunk.js": "/ReactProject/react-app/static/js/787.f77d0291.chunk.js",
     "static/media/img1.png": "/ReactProject/react-app/static/media/img1.2068ba82dfd096fb7d51.png",
     "static/media/React-icon.png": "/ReactProject/react-app/static/media/React-icon.81ed438b18e24116794d.png",
@@ -10,12 +10,12 @@
     "static/media/sun.jpg": "/ReactProject/react-app/static/media/sun.fbaf379be454462e1387.jpg",
     "static/media/bg.jpg": "/ReactProject/react-app/static/media/bg.acde864bd22588322540.jpg",
     "index.html": "/ReactProject/react-app/index.html",
-    "main.558efc04.css.map": "/ReactProject/react-app/static/css/main.558efc04.css.map",
-    "main.1a0a516d.js.map": "/ReactProject/react-app/static/js/main.1a0a516d.js.map",
+    "main.5052db41.css.map": "/ReactProject/react-app/static/css/main.5052db41.css.map",
+    "main.31a92640.js.map": "/ReactProject/react-app/static/js/main.31a92640.js.map",
     "787.f77d0291.chunk.js.map": "/ReactProject/react-app/static/js/787.f77d0291.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.558efc04.css",
-    "static/js/main.1a0a516d.js"
+    "static/css/main.5052db41.css",
+    "static/js/main.31a92640.js"
   ]
 }
