@@ -1,4 +1,3 @@
-import { tuple } from "antd/es/_util/type";
 import React, { useEffect, useState } from "react";
 
 const Todolist = ({ todo, handlechange }) => {

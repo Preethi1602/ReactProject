@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import 'antd/dist/antd.css';
 //import './App.css';
-import { Button, Checkbox, Form, Card, Input, Row, Col } from 'antd';
+import { Button, Form, Card, Input, Row, Col } from 'antd';
 import { useForms, useAddForms } from'./FormContext'
 //import { FormContext,FormAddContext } from "antd/lib/form/context";
 
@@ -82,7 +82,7 @@ const Forms = () => {
                   rules={[
                     {
                       required: true,
-                      message: 'Please input your firstname!',
+                      message: 'Please enter your firstname!',
                     },
                   ]}
                 >
@@ -95,7 +95,7 @@ const Forms = () => {
                   rules={[
                     {
                       required: true,
-                      message: 'Please input your lastname!',
+                      message: 'Please enter your lastname!',
                     },
                   ]}
                 >
@@ -108,7 +108,8 @@ const Forms = () => {
                   rules={[
                     {
                       required: true,
-                      message: 'Please input your Email!',
+                      type:"email",
+                      message: 'Please enter your correct Email!',
                     },
                   ]}
                 >
@@ -121,11 +122,11 @@ const Forms = () => {
                   rules={[
                     {
                       required: true,
-                      message: 'Please input your password!',
+                      message: 'Please enter your password!',
                     },
                   ]}
                 >
-                  <Input />
+                  <Input.Password />
                 </Form.Item>
 
                 <Form.Item
@@ -134,7 +135,7 @@ const Forms = () => {
                   rules={[
                     {
                       required: true,
-                      message: 'Please input your contact!',
+                      message: 'Please enter your contact Number!',
                     },
                   ]}
                 >

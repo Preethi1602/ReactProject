@@ -1,0 +1,13 @@
+button:hover{
+    background-color: lightblue;
+}
+
+
+.btn-bg:focus {     
+    background-color:lightcoral;    
+}
+.scroll {
+    background-color: turquoise;
+    height: 450px;
+    overflow: scroll;
+  }

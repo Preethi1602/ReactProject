@@ -15,6 +15,8 @@
 .antd td{
   background-color: lightblue!important;
   border: 1px solid white;
+  font-size:16px;
+  font-family:'Times New Roman', Times, serif
 }
 .nav-item .nav-link{
   color: blue;
